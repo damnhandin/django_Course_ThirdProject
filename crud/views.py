@@ -38,6 +38,12 @@ def edit(request, id):
         return HttpResponseNotFound("<h2>Person not found</h2>")
 
 
+
+
+
+
+
+
 # удаление данных из бд
 def delete(request, id):
     try:
